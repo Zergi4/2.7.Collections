@@ -1,6 +1,7 @@
 package pro.sky.collections.skypro_collections.service;
 
 
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import pro.sky.collections.skypro_collections.Employee;
 import pro.sky.collections.skypro_collections.exception.EmloyeeNotFoundException;
@@ -19,9 +20,11 @@ public class EmployeeService {
             throw new EmployeeStorageIsFullException("Массив сотрудников переполнен");
         }
         Employee newEmployee = new Employee(firstName, lastName);
-        if (employees.containsKey(newEmployee.getFullName())) {
+     if (employees.containsKey(newEmployee.getFullName())) {
+
             throw new EmployeeAlreadyAddedException("Такой сотрудник уже есть");
         }
+
         employees.put(newEmployee.getFullName(), newEmployee);
         return newEmployee;
     }

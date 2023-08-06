@@ -1,6 +1,7 @@
 package pro.sky.collections.skypro_collections.controller;
 
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.HttpStatusCodeException;
 import pro.sky.collections.skypro_collections.Employee;
 import pro.sky.collections.skypro_collections.service.EmployeeService;
 
@@ -10,9 +11,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
-    @ExceptionHandler({RuntimeException.class})
-    public String handleException(Exception e) {
-        return e.getMessage();
+    @ExceptionHandler({HttpStatusCodeException.class})
+    public String handleException(HttpStatusCodeException e) {
+        return "Code: " + e.getStatusCode() + ". Error: " + e.getMessage();
     }
 
     private final EmployeeService employeeService;

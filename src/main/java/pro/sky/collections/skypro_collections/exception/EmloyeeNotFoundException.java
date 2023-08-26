@@ -1,11 +1,11 @@
 package pro.sky.collections.skypro_collections.exception;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.client.HttpStatusCodeException;
 
-@ResponseStatus(HttpStatus.NOT_FOUND)
-public class EmloyeeNotFoundException extends RuntimeException{
+public class EmloyeeNotFoundException extends HttpStatusCodeException {
+
     public EmloyeeNotFoundException(String message) {
-        super(message);
+        super(HttpStatus.NOT_FOUND, message);
     }
 }

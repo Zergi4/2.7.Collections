@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="242ada2f-7b52-49e0-a796-f889afa00b2c" name="Changes" comment="libs">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/exception/EmloyeeNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/exception/EmployeeAlreadyAddedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/exception/EmployeeStorageIsFullException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/exception/EmloyeeNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/exception/EmloyeeNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pro/sky/collections/skypro_collections/service/EmployeeSeviceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +85,20 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SkyproCollectionsApplication">
+    <configuration name="SkyproCollectionsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pro.sky.collections.skypro_collections.SkyproCollectionsApplication" />
+      <module name="skypro_collections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pro.sky.collections.skypro_collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="_2.7.Collections" />
       <method v="2">
@@ -105,6 +119,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SkyproCollectionsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -202,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691318652534</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="libs">
+      <option name="closed" value="true" />
+      <created>1691319104271</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691319104271</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

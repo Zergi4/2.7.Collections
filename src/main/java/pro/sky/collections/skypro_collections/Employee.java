@@ -10,7 +10,7 @@ public class Employee {
     //Конструктор
 
 
-    public Employee(String firstName, String lastName) {
+    public Employee(String firstName, String lastName, double salary, int departmentId) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
